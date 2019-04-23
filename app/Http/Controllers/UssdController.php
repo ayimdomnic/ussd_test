@@ -15,6 +15,8 @@ class UssdController extends Controller
             "data" => $request
         ]);
 
-        
+        $response = "NIAJE CASPER";
+
+        return "CON {$response}";
     }
 }
